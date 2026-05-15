@@ -3002,4 +3002,6 @@ async function handleClanCommand(interaction, data, player) {
   }
 }
 
+const http = require("http");
+http.createServer((req, res) => res.end("OK")).listen(process.env.PORT || 3000);
 client.login(process.env.DISCORD_TOKEN);
