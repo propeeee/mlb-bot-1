@@ -180,8 +180,141 @@ const MIRACULOUSES = {
   },
 };
 
-// -- Status Effect Registry --------------------------------
-const STATUS = {
+// -- Powered-Up Forms --------------------------------------
+const POWERED_FORMS = {
+  space_macaroon: {
+    label: "Cosmo",
+    suffix: "Cosmo",
+    color: 0x1a0a4e,
+    description: "Cosmic kwami energy surges through your miraculous. You are Cosmo-powered!",
+    hpMult: 1.40,
+    atkMult: 1.35,
+    dodgeBonus: 35,
+    cdReduction: true,
+    statusOnStart: [["immune", 1], ["foresight", 2], ["shield", 1]],
+    thumbnail: (mirKey) => THUMBNAILS[mirKey],
+  },
+  ice_macaroon: {
+    label: "Ice",
+    suffix: "Ice",
+    color: 0xa8d8ea,
+    description: "Glacial kwami energy coats your miraculous. You are Ice-powered!",
+    hpMult: 1.25,
+    atkMult: 1.20,
+    dodgeBonus: 25,
+    cdReduction: false,
+    statusOnStart: [["immune", 1], ["dodge", 2]],
+    thumbnail: (mirKey) => THUMBNAILS[mirKey],
+    onHitStatus: ["stun", 1],
+    onHitChance: 20,
+  },
+  fire_macaroon: {
+    label: "Flare",
+    suffix: "Flare",
+    color: 0xff4500,
+    description: "Blazing kwami energy ignites your miraculous. You are Flare-powered!",
+    hpMult: 1.20,
+    atkMult: 1.35,
+    dodgeBonus: 0,
+    cdReduction: false,
+    statusOnStart: [["blessed", 2]],
+    thumbnail: (mirKey) => THUMBNAILS[mirKey],
+    onHitStatus: ["burn", 2],
+    onHitChance: 25,
+  },
+  water_macaroon: {
+    label: "Aqua",
+    suffix: "Aqua",
+    color: 0x0077b6,
+    description: "Aquatic kwami energy flows through your miraculous. You are Aqua-powered!",
+    hpMult: 1.30,
+    atkMult: 1.15,
+    dodgeBonus: 0,
+    cdReduction: false,
+    statusOnStart: [["regen", 3], ["shield", 1]],
+    thumbnail: (mirKey) => THUMBNAILS[mirKey],
+    regenOnHit: true,
+  },
+  storm_macaroon: {
+    label: "Storm",
+    suffix: "Storm",
+    color: 0x6a0dad,
+    description: "Thunder kwami energy crackles through your miraculous. You are Storm-powered!",
+    hpMult: 1.25,
+    atkMult: 1.40,
+    dodgeBonus: 0,
+    cdReduction: false,
+    statusOnStart: [["blessed", 1]],
+    thumbnail: (mirKey) => THUMBNAILS[mirKey],
+    onHitStatus: ["stun", 1],
+    onHitChance: 20,
+    specialBonus: 30,
+  },
+  shadow_macaroon: {
+    label: "Shadow",
+    suffix: "Shadow",
+    color: 0x2d2d2d,
+    description: "Shadowy kwami energy veils your miraculous. You are Shadow-powered!",
+    hpMult: 1.20,
+    atkMult: 1.25,
+    dodgeBonus: 35,
+    cdReduction: false,
+    statusOnStart: [["dodge", 2], ["foresight", 1]],
+    thumbnail: (mirKey) => THUMBNAILS[mirKey],
+    enemyAccuracyReduction: true,
+  },
+};
+
+function getPoweredForm(macaroon) {
+  return POWERED_FORMS[macaroon] || null;
+}
+
+function poweredFormName(heroName, macaroon) {
+  const form = getPoweredForm(macaroon);
+  if (!form) return heroName;
+  return `${form.label} ${heroName}`;
+}
+
+function applyPoweredFormStart(side, logs) {
+  const form = getPoweredForm(side.macaroon);
+  if (!form || side.poweredFormApplied) return;
+  side.poweredFormApplied = true;
+
+  // Boost maxHp and hp
+  const newMax = Math.floor(side.maxHp * form.hpMult);
+  const hpGain = newMax - side.maxHp;
+  side.maxHp = newMax;
+  side.hp = Math.min(side.hp + hpGain, side.maxHp);
+
+  // Apply starting statuses
+  for (const [statusId, duration] of (form.statusOnStart || [])) {
+    addStatus(side, statusId, duration);
+  }
+
+  const heroName = MIRACULOUSES[side.mirKey]?.hero || side.name;
+  logs.push(`✨ ${side.name} activates **${poweredFormName(heroName, side.macaroon)}**! ${form.description}`);
+}
+
+function applyPoweredFormAttackBonus(side, baseDmg) {
+  const form = getPoweredForm(side.macaroon);
+  if (!form) return baseDmg;
+  return Math.floor(baseDmg * (form.atkMult || 1));
+}
+
+function applyPoweredFormOnHit(attSide, defSide, logs) {
+  const form = getPoweredForm(attSide.macaroon);
+  if (!form) return;
+  if (form.onHitStatus && form.onHitChance && Math.random() * 100 < form.onHitChance) {
+    addStatus(defSide, form.onHitStatus[0], form.onHitStatus[1]);
+    logs.push(`${attSide.name}'s powered form procs **${form.onHitStatus[0]}** on ${defSide.name}!`);
+  }
+  if (form.regenOnHit && Math.random() < 0.30) {
+    const heal = healSide(attSide, Math.max(5, Math.floor(attSide.maxHp * 0.04)));
+    logs.push(`${attSide.name}'s Aqua form siphons ${heal} HP on hit.`);
+  }
+}
+
+// -- Status Effect Registry --------------------------------const STATUS = {
   burn: { id: "burn", label: "Burning", emoji: "Fire", maxStacks: 1 },
   stun: { id: "stun", label: "Stunned", emoji: "Stun", maxStacks: 1 },
   confused: { id: "confused", label: "Confused", emoji: "Daze", maxStacks: 1 },
@@ -1105,6 +1238,11 @@ function storylineActionDialogue(pve, action) {
 function applyMacaroonStart(side, logs) {
   if (!side.macaroon || side.macaroonApplied) return;
   side.macaroonApplied = true;
+  const form = getPoweredForm(side.macaroon);
+  if (form) {
+    applyPoweredFormStart(side, logs);
+    return;
+  }
   const item = ITEMS[side.macaroon];
   if (!item?.effects) return;
   const fx = item.effects;
@@ -1443,11 +1581,13 @@ function resolveAttack(attSide, defSide) {
     return logs;
   }
 
-  let raw = rand(Math.floor(baseAtk * 0.8), Math.floor(baseAtk * 1.35));
+let raw = rand(Math.floor(baseAtk * 0.8), Math.floor(baseAtk * 1.35));
   raw = sentihumanDamageBonus(attSide, raw);
+  raw = applyPoweredFormAttackBonus(attSide, raw);
   const proc = macaroonProcs(attSide, defSide, raw, logs);
   raw += proc.extra;
   const dmg = applyDamage(defSide, raw, logs);
+  applyPoweredFormOnHit(attSide, defSide, logs);
   logs.push(`${attSide.name} attacks ${defSide.name} for ${dmg} damage.`);
   return logs;
 }
@@ -1500,8 +1640,8 @@ function buildBattleEmbed(battle) {
     .setTitle(`Battle - Turn ${(battle.turnCount || 0) + 1}`)
     .setColor(0xe74c3c)
     .addFields(
-      { name: `${MIRACULOUSES[sideA.mirKey].hero} - ${sideA.name}`, value: fieldA, inline: false },
-      { name: `${MIRACULOUSES[sideB.mirKey].hero} - ${sideB.name}`, value: fieldB, inline: false },
+{ name: `${poweredFormName(MIRACULOUSES[sideA.mirKey].hero, sideA.macaroon)} - ${sideA.name}`, value: fieldA, inline: false },
+      { name: `${poweredFormName(MIRACULOUSES[sideB.mirKey].hero, sideB.macaroon)} - ${sideB.name}`, value: fieldB, inline: false },
     )
     .setFooter({ text: `${turnName}'s turn - ${TURN_TIMEOUT_MS / 1000}s before auto-skip` });
   if (battle.log.length) embed.setDescription(battle.log.slice(-7).join("\n"));
@@ -1654,7 +1794,7 @@ function buildPveEmbed(pve) {
     .setColor(villain.color || 0xe67e22)
     .setDescription(pve.log.slice(-8).join("\n") || "The encounter begins.")
     .addFields(
-      { name: `${MIRACULOUSES[hero.mirKey].hero} - ${hero.name}`, value: `${hpBar(hero.hp, hero.maxHp)}\nStatus: ${statusLine(hero)}${extraSideLine(hero)}`, inline: false },
+{ name: `${poweredFormName(MIRACULOUSES[hero.mirKey].hero, hero.macaroon)} - ${hero.name}`, value: `${hpBar(hero.hp, hero.maxHp)}\nStatus: ${statusLine(hero)}${extraSideLine(hero)}`, inline: false },
       ...(pve.ally ? [{ name: "Ladybug - Teammate", value: `${hpBar(pve.ally.hp, pve.ally.maxHp)}\nStatus: ${statusLine(pve.ally)}\nRole: Captures the akuma and fights beside you`, inline: false }] : []),
       { name: villain.name, value: `${hpBar(villain.hp, villain.maxHp)}\nStatus: ${statusLine(villain)}`, inline: false },
       ...(pve.mode === "storyline" ? [{ name: "Dialogue", value: (pve.dialogue || []).slice(-4).join("\n") || "**Ladybug**: Stay sharp. The akuma has to be inside one of their objects.", inline: false }] : []),
@@ -2018,7 +2158,11 @@ const commands = [
     .addSubcommand(s => s.setName("deposit").setDescription("Deposit charms into the clan vault.").addIntegerOption(o => o.setName("amount").setDescription("Charms to deposit").setRequired(true)))
     .addSubcommand(s => s.setName("withdraw").setDescription("Withdraw charms from the clan vault (owner/officer only).").addIntegerOption(o => o.setName("amount").setDescription("Charms to withdraw").setRequired(true)))
     .addSubcommand(s => s.setName("leaderboard").setDescription("Top clans by wins.")),
-  new SlashCommandBuilder().setName("givemiraculous").setDescription("Give a miraculous to a user.").addUserOption(o => o.setName("user").setDescription("Target user").setRequired(true)).addStringOption(o => o.setName("miraculous").setDescription("Miraculous key").setRequired(true)),
+new SlashCommandBuilder().setName("give").setDescription("Admin: Give a miraculous or item to a user.")
+  .addUserOption(o => o.setName("user").setDescription("Target user").setRequired(true))
+  .addStringOption(o => o.setName("miraculous").setDescription("Miraculous key to give"))
+  .addStringOption(o => o.setName("item").setDescription("Item ID to give"))
+  .addIntegerOption(o => o.setName("quantity").setDescription("Quantity of item (default 1)")),
   new SlashCommandBuilder().setName("advancedwarn").setDescription("Warn a user").addUserOption(o => o.setName("user").setDescription("User to warn").setRequired(true)).addStringOption(o => o.setName("reason").setDescription("Warning reason").setRequired(true)),
   new SlashCommandBuilder().setName("panel").setDescription("Toggle miraculous ownership system"),
 ].map(command => command.toJSON());
@@ -2352,16 +2496,31 @@ async function handleCommand(interaction) {
     return interaction.reply({ embeds: [new EmbedBuilder().setTitle("Panel Updated").setDescription(CLAIMS_DISABLED ? "Ownership system disabled." : "Ownership system enabled.").setColor(CLAIMS_DISABLED ? 0x2ecc71 : 0xe74c3c)] });
   }
 
-  if (commandName === "givemiraculous") {
+if (commandName === "give") {
     if (!ADMIN_IDS.includes(user.id)) return interaction.reply({ content: "No permission.", ephemeral: true });
     const target = interaction.options.getUser("user");
-    const key = interaction.options.getString("miraculous").toLowerCase();
-    if (!MIRACULOUSES[key]) return interaction.reply({ content: "Invalid miraculous key.", ephemeral: true });
+    const mirKey = interaction.options.getString("miraculous")?.toLowerCase();
+    const itemId = interaction.options.getString("item")?.toLowerCase();
+    const qty = Math.max(1, interaction.options.getInteger("quantity") || 1);
+
+    if (!mirKey && !itemId) return interaction.reply({ content: "Provide either a miraculous key or an item ID.", ephemeral: true });
+
     const targetPlayer = getPlayer(data, target.id, target.username);
-    if (!targetPlayer.miraculouses.includes(key)) targetPlayer.miraculouses.push(key);
-    if (!CLAIMS_DISABLED) data.miraculousOwners[key] = target.id;
-    saveData(data);
-    return interaction.reply({ embeds: [new EmbedBuilder().setTitle("Miraculous Given").setDescription(`Gave **${MIRACULOUSES[key].name}** to ${target}`).setColor(0x2ecc71)] });
+
+    if (mirKey) {
+      if (!MIRACULOUSES[mirKey]) return interaction.reply({ content: `Invalid miraculous key \`${mirKey}\`.`, ephemeral: true });
+      if (!targetPlayer.miraculouses.includes(mirKey)) targetPlayer.miraculouses.push(mirKey);
+      if (!CLAIMS_DISABLED) data.miraculousOwners[mirKey] = target.id;
+      saveData(data);
+      return interaction.reply({ embeds: [new EmbedBuilder().setTitle("Miraculous Given").setDescription(`Gave **${MIRACULOUSES[mirKey].name}** to ${target}.`).setColor(0x2ecc71)] });
+    }
+
+    if (itemId) {
+      if (!ITEMS[itemId]) return interaction.reply({ content: `Unknown item ID \`${itemId}\`. Check /recipes or /inventory for valid IDs.`, ephemeral: true });
+      addItem(targetPlayer, itemId, qty);
+      saveData(data);
+      return interaction.reply({ embeds: [new EmbedBuilder().setTitle("Item Given").setDescription(`Gave **${ITEMS[itemId].name}** x${qty} to ${target}.`).setColor(0x2ecc71)] });
+    }
   }
 
   if (commandName === "miraculous") {
