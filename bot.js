@@ -303,7 +303,8 @@ function applyPoweredFormOnHit(attSide, defSide, logs) {
   }
 }
 
-// -- Status Effect Registry --------------------------------const STATUS = {
+// -- Status Effect Registry --------------------------------
+const STATUS = {
   burn: { id: "burn", label: "Burning", emoji: "Fire", maxStacks: 1 },
   stun: { id: "stun", label: "Stunned", emoji: "Stun", maxStacks: 1 },
   confused: { id: "confused", label: "Confused", emoji: "Daze", maxStacks: 1 },
