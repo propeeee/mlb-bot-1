@@ -1,0 +1,1798 @@
+{
+  "players": {
+    "999672061221929071": {
+      "username": "properties.exe",
+      "miraculouses": [
+        "cat",
+        "bat",
+        "tiger",
+        "rabbit",
+        "peacock"
+      ],
+      "transformed": "peacock",
+      "hp": 201,
+      "maxHp": 201,
+      "wins": 11,
+      "losses": 8,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {
+        "kaalki_portal_gear": 1,
+        "scorched_akuma_mask": 2,
+        "nooroo_dark_wing": 1,
+        "akuma_core": 6,
+        "bat_echo_crystal": 5,
+        "duusu_feather": 2,
+        "spirit_bloom": 2,
+        "kwami_energy_capsule": 11,
+        "longg_storm_essence": 4,
+        "purified_butterfly": 16,
+        "trixx_ember": 3,
+        "fluff_clockwork": 2,
+        "wayzz_shell_fragment": 1,
+        "nooroo_wing": 2,
+        "pollen_stinger": 3,
+        "cracked_lucky_charm": 9,
+        "guardian_alloy_plate": 10,
+        "crimson_creation_thread": 3
+      },
+      "charms": 1307,
+      "clanId": "clan_999672061221929071_1778754401079",
+      "activeMacaroon": null,
+      "storyProgress": 5,
+      "storyline": {
+        "season1": {
+          "episode": 6,
+          "completed": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      },
+      "identity": {
+        "species": "Sentihuman",
+        "obedience": 36,
+        "chosenAt": 1778751627797,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1477597174127923311": {
+      "username": "its_ajwad",
+      "miraculouses": [
+        "bat"
+      ],
+      "transformed": "bat",
+      "hp": 185,
+      "maxHp": 185,
+      "wins": 1,
+      "losses": 1,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {
+        "longg_dragon_scale": 1,
+        "longg_storm_essence": 1,
+        "wayzz_shell_fragment": 1
+      },
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "amokHolderId": null,
+        "amokOrders": [],
+        "choiceSentAt": 1778753342854,
+        "choiceExpiresAt": 1778839742854
+      }
+    },
+    "1201126989290012793": {
+      "username": "everytimeswt",
+      "miraculouses": [
+        "dragon",
+        "fox"
+      ],
+      "transformed": "dragon",
+      "hp": 170,
+      "maxHp": 170,
+      "wins": 1,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {
+        "guardian_alloy_plate": 1,
+        "longg_dragon_scale": 1,
+        "sass_shed_skin": 1
+      },
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "claimCooldown": 1778603319716,
+      "identity": {
+        "species": "Human",
+        "obedience": 1,
+        "chosenAt": 1778753990488,
+        "choiceSentAt": 1778753349823,
+        "choiceExpiresAt": 1778839749823,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1483099984151973888": {
+      "username": "hazel_112_",
+      "miraculouses": [
+        "peacock",
+        "tiger",
+        "rabbit"
+      ],
+      "transformed": "tiger",
+      "hp": 145,
+      "maxHp": 145,
+      "wins": 3,
+      "losses": 4,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {
+        "kwami_energy_capsule": 4,
+        "guardian_alloy_plate": 2,
+        "pollen_stinger": 1,
+        "cracked_lucky_charm": 7,
+        "trixx_mirage_dust": 1,
+        "longg_dragon_scale": 1,
+        "nooroo_dark_wing": 4,
+        "kaalki_portal_gear": 1
+      },
+      "charms": 524,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 1,
+      "storyline": {
+        "season1": {
+          "episode": 2,
+          "completed": [
+            1
+          ]
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "amokHolderId": null,
+        "amokOrders": [],
+        "choiceSentAt": 1778753333056,
+        "choiceExpiresAt": 1778839733056
+      }
+    },
+    "1377885869805146213": {
+      "username": "strategicmagesty",
+      "miraculouses": [
+        "butterfly",
+        "pig"
+      ],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "claimCooldown": 1778603327104,
+      "identity": {
+        "species": "Sentihuman",
+        "obedience": 64,
+        "chosenAt": 1778754326019,
+        "choiceSentAt": 1778753350783,
+        "choiceExpiresAt": 1778839750783,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "991648308646903818": {
+      "username": "enigmaticsupreme",
+      "miraculouses": [
+        "ox"
+      ],
+      "transformed": "ox",
+      "hp": 175,
+      "maxHp": 175,
+      "wins": 0,
+      "losses": 1,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {
+        "kwami_energy_capsule": 1,
+        "nooroo_dark_wing": 2,
+        "frozen_tear": 1
+      },
+      "charms": 261,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "claimCooldown": 1778686644829,
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "amokHolderId": null,
+        "amokOrders": [],
+        "choiceSentAt": 1778753384472,
+        "choiceExpiresAt": 1778839784472
+      }
+    },
+    "1380794042341920789": {
+      "username": "sharkslevi",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": "Sentihuman",
+        "obedience": 83,
+        "chosenAt": 1778750518039,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "976786463301730304": {
+      "username": "cosxxmic.",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": "Human",
+        "obedience": 1,
+        "chosenAt": 1778750520332,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1487529588878737498": {
+      "username": "chippyguyy",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": "Human",
+        "obedience": 1,
+        "chosenAt": 1778750851842,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1482649406846140466": {
+      "username": "winxks8te",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753311180,
+        "choiceExpiresAt": 1778839711180,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1397213159458213979": {
+      "username": "moonx_l",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753313016,
+        "choiceExpiresAt": 1778839713016,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1339019798570340383": {
+      "username": "homom1zo_.seishi",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753315045,
+        "choiceExpiresAt": 1778839715045,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1377053459823591498": {
+      "username": "navanyaa",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753318455,
+        "choiceExpiresAt": 1778839718455,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1490255691833933929": {
+      "username": "william_miraculous",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753321015,
+        "choiceExpiresAt": 1778839721015,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1484312452891148319": {
+      "username": "milo0212456",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753323192,
+        "choiceExpiresAt": 1778839723192,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "709755802000293919": {
+      "username": "bt.ash.a.valta",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": "Human",
+        "obedience": 1,
+        "chosenAt": 1778753803342,
+        "choiceSentAt": 1778753325307,
+        "choiceExpiresAt": 1778839725307,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1419253383876968540": {
+      "username": "hazel1120_",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753328088,
+        "choiceExpiresAt": 1778839728088,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1436444781566890034": {
+      "username": "shelly9643_75223",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753330093,
+        "choiceExpiresAt": 1778839730093,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1489992414335729927": {
+      "username": "prttysheis",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753331461,
+        "choiceExpiresAt": 1778839731461,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1327557391465582623": {
+      "username": "sailor.saga_41051",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753334035,
+        "choiceExpiresAt": 1778839734035,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1201048538063319085": {
+      "username": "itsjustamberr123",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753335988,
+        "choiceExpiresAt": 1778839735988,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1066974651198230548": {
+      "username": "ahnnh0_",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": "Human",
+        "obedience": 1,
+        "chosenAt": 1778754484787,
+        "choiceSentAt": 1778753338350,
+        "choiceExpiresAt": 1778839738350,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1259838224159871012": {
+      "username": "davinaclaire1st",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753341199,
+        "choiceExpiresAt": 1778839741199,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1321031980808142918": {
+      "username": "xian_radio2_56097",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753344634,
+        "choiceExpiresAt": 1778839744634,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1323272589614780457": {
+      "username": "james_bloxs465",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753347908,
+        "choiceExpiresAt": 1778839747908,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1098654346775904468": {
+      "username": "slush1357",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753352510,
+        "choiceExpiresAt": 1778839752510,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1484183747380379721": {
+      "username": "turkeybacon0255_92052",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753355132,
+        "choiceExpiresAt": 1778839755132,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1430166954185855205": {
+      "username": "yosxmmywashere",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753356643,
+        "choiceExpiresAt": 1778839756643,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1020790211120205824": {
+      "username": "hushm4rks.",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753358304,
+        "choiceExpiresAt": 1778839758304,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1489995531978801263": {
+      "username": "haily.bon",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753360429,
+        "choiceExpiresAt": 1778839760429,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1182368896620187674": {
+      "username": "c1ssy_islol_38359",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": "Human",
+        "obedience": 1,
+        "chosenAt": 1778755187638,
+        "choiceSentAt": 1778753362902,
+        "choiceExpiresAt": 1778839762902,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1242841892748525700": {
+      "username": "elitechampion_08242024.",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753365055,
+        "choiceExpiresAt": 1778839765055,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1239311858461315194": {
+      "username": "avril_your_fav_bitch_xx",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753368265,
+        "choiceExpiresAt": 1778839768265,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1069568476185903134": {
+      "username": "calanobi",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753372576,
+        "choiceExpiresAt": 1778839772576,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1358993147153092852": {
+      "username": "justdont_care",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753375216,
+        "choiceExpiresAt": 1778839775216,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1122091196869771344": {
+      "username": "lysy_mordo",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753377303,
+        "choiceExpiresAt": 1778839777303,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "879957373408661526": {
+      "username": "fellowdog",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": "Sentihuman",
+        "obedience": 26,
+        "chosenAt": 1778754698534,
+        "choiceSentAt": 1778753379411,
+        "choiceExpiresAt": 1778839779411,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "700128917914124349": {
+      "username": "moonlight4870",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753382106,
+        "choiceExpiresAt": 1778839782106,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1191975907376767067": {
+      "username": "lewis0701",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753386260,
+        "choiceExpiresAt": 1778839786260,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1497558752218321046": {
+      "username": ".vinnylia.",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753388469,
+        "choiceExpiresAt": 1778839788469,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1000808061721649182": {
+      "username": "thechosenpne",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753390571,
+        "choiceExpiresAt": 1778839790571,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1368418281441984597": {
+      "username": "bobby024629",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": "Human",
+        "obedience": 1,
+        "chosenAt": 1778754482368,
+        "choiceSentAt": 1778753392344,
+        "choiceExpiresAt": 1778839792344,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1255046418410766366": {
+      "username": "levente5_5",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753394260,
+        "choiceExpiresAt": 1778839794260,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1502913927523074089": {
+      "username": "midnights_lights",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753397315,
+        "choiceExpiresAt": 1778839797315,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1393397030562562148": {
+      "username": "malachiduhh",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753398997,
+        "choiceExpiresAt": 1778839798997,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1502527625229500486": {
+      "username": "milly_witchchaos",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753403120,
+        "choiceExpiresAt": 1778839803120,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1491435628687265862": {
+      "username": "millie_da.best_88140",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753404241,
+        "choiceExpiresAt": 1778839804241,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1288513146184663163": {
+      "username": "cosmo_rocks",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753406227,
+        "choiceExpiresAt": 1778839806227,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1184583710146834454": {
+      "username": "nuhuh_213",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": "Sentihuman",
+        "obedience": 66,
+        "chosenAt": 1778753423043,
+        "choiceSentAt": 1778753408744,
+        "choiceExpiresAt": 1778839808744,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1495454375286538271": {
+      "username": "judsontheheartfixer",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753411525,
+        "choiceExpiresAt": 1778839811525,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1285252874322055208": {
+      "username": "utterlyqueenb_",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": "Human",
+        "obedience": 1,
+        "chosenAt": 1778754111410,
+        "choiceSentAt": 1778753415379,
+        "choiceExpiresAt": 1778839815379,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "866176582188138506": {
+      "username": "imjusthappytobehere2",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753417830,
+        "choiceExpiresAt": 1778839817830,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    },
+    "1476984760692903959": {
+      "username": "taffywaffy0763",
+      "miraculouses": [],
+      "transformed": null,
+      "hp": 100,
+      "maxHp": 100,
+      "wins": 0,
+      "losses": 0,
+      "inventory": [],
+      "abilityCooldown": 0,
+      "villaincooldown": 0,
+      "itemInventory": {},
+      "charms": 0,
+      "clanId": null,
+      "activeMacaroon": null,
+      "storyProgress": 0,
+      "storyline": {
+        "season1": {
+          "episode": 1,
+          "completed": []
+        }
+      },
+      "identity": {
+        "species": null,
+        "obedience": null,
+        "chosenAt": null,
+        "choiceSentAt": 1778753420295,
+        "choiceExpiresAt": 1778839820295,
+        "amokHolderId": null,
+        "amokOrders": []
+      }
+    }
+  },
+  "miraculousOwners": {
+    "bat": "999672061221929071",
+    "cat": "999672061221929071",
+    "dragon": "1201126989290012793",
+    "peacock": "999672061221929071",
+    "tiger": "999672061221929071",
+    "fox": "1201126989290012793",
+    "butterfly": "1377885869805146213",
+    "pig": "1377885869805146213",
+    "rabbit": "999672061221929071",
+    "ox": "991648308646903818"
+  },
+  "clans": {
+    "clan_999672061221929071_1778754401079": {
+      "id": "clan_999672061221929071_1778754401079",
+      "name": "Miracle",
+      "tag": "MIRA",
+      "owner": "999672061221929071",
+      "officers": [],
+      "members": [],
+      "level": 1,
+      "xp": 0,
+      "wins": 0,
+      "vault": 0,
+      "vaultItems": {},
+      "invites": [],
+      "createdAt": 1778754401079
+    }
+  },
+  "warns": {},
+  "storyline": {
+    "season1": {
+      "episodes": 25
+    }
+  }
+}
