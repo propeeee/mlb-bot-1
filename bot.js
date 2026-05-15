@@ -32,7 +32,7 @@ const GUILD_IDS = (process.env.GUILD_IDS || "1474746184827404320,148232496114958
   .filter(Boolean);
 const DATA_FILE = path.join(__dirname, "data.json");
 
-if (!TOKEN) {
+if (!process.env.DISCORD_TOKEN) {
   console.error("Missing DISCORD_TOKEN. Set it in your environment before starting the bot.");
   process.exit(1);
 }
