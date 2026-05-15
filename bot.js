@@ -25,7 +25,7 @@ try {
 }
 
 // -- Config --------------------------------------------------
-const TOKEN = "MTQ5NDMxNjQwNDI2NTE4OTUxOQ.G0Rfpj.RAKEvqtgpbytl0Rj2pBsdwiHzqjfCPAapzW1M4";
+client.login(process.env.DISCORD_TOKEN);
 const CLIENT_ID = process.env.CLIENT_ID || "1494316404265189519";
 const GUILD_IDS = (process.env.GUILD_IDS || "1474746184827404320,1482324961149587550")
   .split(",")
