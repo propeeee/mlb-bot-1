@@ -192,7 +192,6 @@ const POWERED_FORMS = {
     dodgeBonus: 35,
     cdReduction: true,
     statusOnStart: [["immune", 1], ["foresight", 2], ["shield", 1]],
-    thumbnail: (mirKey) => THUMBNAILS[mirKey],
   },
   ice_macaroon: {
     label: "Ice",
@@ -204,7 +203,6 @@ const POWERED_FORMS = {
     dodgeBonus: 25,
     cdReduction: false,
     statusOnStart: [["immune", 1], ["dodge", 2]],
-    thumbnail: (mirKey) => THUMBNAILS[mirKey],
     onHitStatus: ["stun", 1],
     onHitChance: 20,
   },
@@ -218,7 +216,6 @@ const POWERED_FORMS = {
     dodgeBonus: 0,
     cdReduction: false,
     statusOnStart: [["blessed", 2]],
-    thumbnail: (mirKey) => THUMBNAILS[mirKey],
     onHitStatus: ["burn", 2],
     onHitChance: 25,
   },
@@ -232,7 +229,6 @@ const POWERED_FORMS = {
     dodgeBonus: 0,
     cdReduction: false,
     statusOnStart: [["regen", 3], ["shield", 1]],
-    thumbnail: (mirKey) => THUMBNAILS[mirKey],
     regenOnHit: true,
   },
   storm_macaroon: {
@@ -245,7 +241,6 @@ const POWERED_FORMS = {
     dodgeBonus: 0,
     cdReduction: false,
     statusOnStart: [["blessed", 1]],
-    thumbnail: (mirKey) => THUMBNAILS[mirKey],
     onHitStatus: ["stun", 1],
     onHitChance: 20,
     specialBonus: 30,
@@ -260,7 +255,6 @@ const POWERED_FORMS = {
     dodgeBonus: 35,
     cdReduction: false,
     statusOnStart: [["dodge", 2], ["foresight", 1]],
-    thumbnail: (mirKey) => THUMBNAILS[mirKey],
     enemyAccuracyReduction: true,
   },
 };
@@ -279,18 +273,13 @@ function applyPoweredFormStart(side, logs) {
   const form = getPoweredForm(side.macaroon);
   if (!form || side.poweredFormApplied) return;
   side.poweredFormApplied = true;
-
-  // Boost maxHp and hp
   const newMax = Math.floor(side.maxHp * form.hpMult);
   const hpGain = newMax - side.maxHp;
   side.maxHp = newMax;
   side.hp = Math.min(side.hp + hpGain, side.maxHp);
-
-  // Apply starting statuses
   for (const [statusId, duration] of (form.statusOnStart || [])) {
     addStatus(side, statusId, duration);
   }
-
   const heroName = MIRACULOUSES[side.mirKey]?.hero || side.name;
   logs.push(`✨ ${side.name} activates **${poweredFormName(heroName, side.macaroon)}**! ${form.description}`);
 }
